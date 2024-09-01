@@ -17,6 +17,7 @@
     - [Deepseek-VL](#deepseek-vl)
 - [Run our code](#run-our-code)
 - [Performance](#performance)
+- [Citation](#citation)
 - [Contact](#contact)
 
 
@@ -105,7 +106,7 @@ cd ..
 ## Run our code
 You only need to run the following command in the terminal:
 ```
-python main.py --dataset dataset_name --model model_name --method method_name --eval test
+python main.py --dataset dataset_name --model model_name --eval test
 
 # dataset = ['mmsd', 'mmsd2']
 # model = ['gemini_pro', 'qwen_vl', 'yi_vl', 'minicpm_v2', 'llava_v1_5', 'deepseek_vl_chat']
@@ -123,6 +124,17 @@ CUDA_VISIBLE_DEVICES=0 python main.py --...
 <img src="./img/performance.jpg" width="100%">
 </div>
 
+## Citation
+```bibtex
+@article{wang2024s3,
+  title={S3 Agent: Unlocking the Power of VLLM for Zero-Shot Multi-modal Sarcasm Detection},
+  author={Wang, Peng and Zhang, Yongheng and Fei, Hao and Chen, Qiguang and Wang, Yukai and Si, Jiasheng and Lu, Wenpeng and Li, Min and Qin, Libo},
+  journal={ACM Transactions on Multimedia Computing, Communications and Applications},
+  year={2024},
+  publisher={ACM New York, NY}
+}
+```
+
 ## Contact
 
-Please create Github issues here or email [Peng Wang](mailto:wpengxss@gmail.com), [Yongheng Zhang](mailto:zyhbrz@gmail.com), and [Libo Qin](lbqin@csu.edu.cn) if you have any questions or suggestions. 
+Please create Github issues here or email [Peng Wang](mailto:wpengxss@gmail.com), [Yongheng Zhang](mailto:zyhbrz@gmail.com), and [Libo Qin](mailto:lbqin@csu.edu.cn) if you have any questions or suggestions. 
