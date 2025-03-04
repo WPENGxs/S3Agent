@@ -126,12 +126,20 @@ CUDA_VISIBLE_DEVICES=0 python main.py --...
 
 ## Citation
 ```bibtex
-@article{wang2024s3,
-  title={S3 Agent: Unlocking the Power of VLLM for Zero-Shot Multi-modal Sarcasm Detection},
-  author={Wang, Peng and Zhang, Yongheng and Fei, Hao and Chen, Qiguang and Wang, Yukai and Si, Jiasheng and Lu, Wenpeng and Li, Min and Qin, Libo},
-  journal={ACM Transactions on Multimedia Computing, Communications and Applications},
-  year={2024},
-  publisher={ACM New York, NY}
+@article{10.1145/3690642,
+author = {Wang, Peng and Zhang, Yongheng and Fei, Hao and Chen, Qiguang and Wang, Yukai and Si, Jiasheng and Lu, Wenpeng and Li, Min and Qin, Libo},
+title = {S3 Agent: Unlocking the Power of VLLM for Zero-Shot Multi-modal Sarcasm Detection},
+year = {2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1551-6857},
+url = {https://doi.org/10.1145/3690642},
+doi = {10.1145/3690642},
+abstract = {Multi-modal sarcasm detection involves determining whether a given multi-modal input conveys sarcastic intent by analyzing the underlying sentiment. Recently, vision large language models have shown remarkable success on various of multi-modal tasks. Inspired by this, we systematically investigate the impact of vision large language models in zero-shot multi-modal sarcasm detection task. Furthermore, to capture different perspectives of sarcastic expressions, we propose a multi-view agent framework, S3 Agent, designed to enhance zero-shot multi-modal sarcasm detection by leveraging three critical perspectives: superficial expression, semantic information, and sentiment expression. Our experiments on the MMSD2.0 dataset, which involves six models and four prompting strategies, demonstrate that our approach achieves state-of-the-art performance. Our method achieves an average improvement of 13.2\% in accuracy. Moreover, we evaluate our method on the text-only sarcasm detection task, where it also surpasses baseline approaches.},
+note = {Just Accepted},
+journal = {ACM Trans. Multimedia Comput. Commun. Appl.},
+month = aug,
+keywords = {Natural language processing, Multi-modal sarcasm detection, Vision large language model}
 }
 ```
 
